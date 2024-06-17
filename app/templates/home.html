@@ -1,12 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <p>
-        Site dos projetos do 3ºTec
-    </p>
+    <div class="info">
+        Coletânea dos projetos do 3ºTec
+    </div>
 
-    <span>
-        <a href="/fizzbuzz">FIZZBUZZ</a>
-    </span>
+    <div class="item-container">
+        <a href="/fizzbuzz" class="item">
+            <div class="item-container-subitem">
+                FizzBuzz
+            </div>
+        </a>
+    </div>
 
 {% endblock %}
